@@ -11,4 +11,37 @@ entries:
     urls:
     - example-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-19T14:05:28.901156128Z"
+  ghost:
+  - annotations:
+      images: |
+        - name: ghost
+          image: docker.io/bitnami/ghost:5.87.2-debian-12-r0
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r25
+    apiVersion: v2
+    appVersion: 5.87.2
+    created: "2024-07-22T01:22:08.142079655Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - ghost-database
+      version: 11.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: This is the Bitnami ghost helm chart, I've copied and edited it to
+      allow it to work behind reverse proxies without TLS but with https addresses
+    digest: 7502539a32ae012f56004882542d8a919bb7c6fd62ce730042c6bdef8a6c55ea
+    maintainers:
+    - name: Jeremy Stuart
+    name: ghost
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/ghost
+    urls:
+    - ghost-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-07-22T01:22:08.14208771Z"
