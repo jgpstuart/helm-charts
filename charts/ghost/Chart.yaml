@@ -27,4 +27,4 @@ maintainers:
 name: ghost
 sources:
   - https://github.com/bitnami/charts/tree/main/bitnami/ghost
-version: 1.0.0
+version: 1.0.1
