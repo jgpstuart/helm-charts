@@ -2,7 +2,7 @@
 apiVersion: traefik.containo.us/v1alpha1
 kind: Middleware
 metadata:
-  namespace: default
+  namespace: ghost-jstuart
   name: ghost-jstuart-add-x-forwarded-proto
 spec:
   headers:
