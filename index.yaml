@@ -204,4 +204,15 @@ entries:
     urls:
     - ghost-1.0.0.tgz
     version: 1.0.0
-generated: "2024-07-23T20:07:10.82105126Z"
+  personal-site:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-01T17:40:08.972931294Z"
+    description: A Helm chart for Kubernetes
+    digest: ccaf35352f41883d9fb6896fe4743393daddfb9eefa684920f91611226753d7b
+    name: personal-site
+    type: application
+    urls:
+    - personal-site-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-08-01T17:40:08.9729506Z"
