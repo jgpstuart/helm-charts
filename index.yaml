@@ -255,4 +255,15 @@ entries:
     urls:
     - personal-site-0.0.1.tgz
     version: 0.0.1
-generated: "2024-08-31T20:06:35.641588467Z"
+  quartz-blog:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-05T18:51:16.074573975Z"
+    description: A Helm chart for Kubernetes
+    digest: a252b7bc2958391c23b3bd6ec567d64ca77953d6e8965ac665e195c09d5da6ae
+    name: quartz-blog
+    type: application
+    urls:
+    - quartz-blog-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-12-05T18:51:16.074599663Z"
